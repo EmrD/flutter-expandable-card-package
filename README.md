@@ -1,4 +1,4 @@
-Expandable Card Widget In Flutter. This is an exmaple package to show how to make an widget with Flutter.
+SimopleExpandable Card Widget In Flutter. This is an exmaple package to show how to make an widget with Flutter.
 
 ## Features
 
@@ -8,14 +8,11 @@ Expandable Card Widget In Flutter. This is an exmaple package to show how to mak
 
 ## Getting started
 
-- Install the package: `flutter pub add expandablecard`
+- Install the package: `flutter pub add simplexpandablecard`
 
 ## Usage
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:expandablecard/expandablecard.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -33,7 +30,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: ExpandableCard(
+          child: SimpleExpandableCard(
             title: 'Expandable Card Title',
             cardColor: Colors.lightBlue[50]!,
             titleColor: Colors.deepPurple,
