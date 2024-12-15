@@ -1,0 +1,17 @@
+name: simplexpandablecard
+description: "Expandable Card Widget In Flutter. This is an exmaple package to show how to make an widget with Flutter."
+version: 1.0.0
+homepage: https://github.com/EmrD/flutter-expandable-card-package 
+
+environment:
+  sdk: ^3.3.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
